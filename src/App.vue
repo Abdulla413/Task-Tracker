@@ -1,7 +1,7 @@
 <template>
   <div class="container">
    
-    <Header @toggle-add-task="toggleAddTask" title="Task Tracker"
+    <Header @toggle-add-task="toggleAddTask" title="Gugum Task Tracker"
     :showAddTask="showAddTask"
     />
     <div v-if="showAddTask">
